@@ -1,11 +1,9 @@
 module.exports = {
-    'Google\'s Search Functionality' : function (browser) {
+    'Interactive Iframe' : function (browser) {
       browser
-        .url('https://www.google.com/ncr')
-        .waitForElementVisible('body', 1000)
-        .setValue('input[type=text]', 'BrowserStack\n')
-        .pause(1000)
-        .assert.title('BrowserStack - Google Search')
-        .end();
+      .url('https://www-preprod.stuff.co.nz/life-style/well-good/inspire-me/90103955/how-four-kiwis-changed-their-diets-to-save-their-lives')
+      .waitForElementVisible('body', 1000)
+      .assert.containsText('.sics-component__headline__title', 'How four Kiwis changed their diets to save their lives')
+      .end();
     }
   };

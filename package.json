@@ -4,7 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run single && npm run local && npm run parallel",
+    "single": "./node_modules/.bin/nightwatch -c conf/single.conf.js",
+    "local": "node scripts/local.runner.js -c conf/local.conf.js",
+    "parallel": "./node_modules/.bin/nightwatch -c conf/parallel.conf.js -e chrome,firefox,safari,ie",
+    "parallel_local": "node scripts/local.runner.js -c conf/parallel_local.conf.js -e chrome,firefox,safari",
+    "parallel_local_mobile": "node scripts/local.runner.js -c conf/parallel_local_mobile.conf.js -e chrome,safari"
   },
   "keywords": [],
   "author": "",

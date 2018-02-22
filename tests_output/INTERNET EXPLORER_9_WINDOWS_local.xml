@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="local"
+    errors="0" failures="1" hostname="" id="" package="local" skipped="0"
+    tests="1" time="24.59" timestamp="Thu, 22 Feb 2018 03:32:06 GMT">
+  
+    <testcase name="BrowserStack Local Testing" classname="local" time="24.59" assertions="1">  <failure message="Timed out while waiting for element &lt;body&gt; to be present for 1000 milliseconds.">    at Object.BrowserStack Local Testing (/Users/sherly.chan/Projects/automateBS/tests/local/local.js:5:10)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

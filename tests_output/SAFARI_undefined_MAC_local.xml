@@ -3,13 +3,13 @@
             failures="1"
             tests="1">
 
-  <testsuite name="single"
-    errors="1" failures="1" hostname="" id="" package="single" skipped="0"
-    tests="1" time="30.35" timestamp="Thu, 22 Feb 2018 03:24:18 GMT">
+  <testsuite name="local"
+    errors="1" failures="1" hostname="" id="" package="local" skipped="0"
+    tests="1" time="20.73" timestamp="Thu, 22 Feb 2018 04:15:30 GMT">
   
-    <testcase name="Google&#39;s Search Functionality" classname="single" time="30.35" assertions="2">
+    <testcase name="BrowserStack Local Testing" classname="local" time="20.73" assertions="2">
 
-      <failure message="Testing if element &lt;.sics-component__headline__title&gt; contains text: &#34;How four Kiwis changed their diets to save their lives&#34;. Element could not be located.">    at Object.Google&#39;s Search Functionality (/Users/sherly.chan/Projects/automateBS/tests/single/single.js:6:15)
+      <failure message="Testing if element &lt;.sics-component__headline__title&gt; contains text: &#34;How four Kiwis changed their diets to save their lives&#34;. Element could not be located.">    at Object.BrowserStack Local Testing (/Users/sherly.chan/Projects/automateBS/tests/local/local.js:6:17)
     at _combinedTickCallback (internal/process/next_tick.js:131:7)</failure>
 
     
